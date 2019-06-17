@@ -1,5 +1,6 @@
 {
   "version": 2,
-  "routes": [{ "src": "*.js", "dest": "bot.js" }],
-  "name": "bot"
+  "name": "bot",
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "env": {   "BOT_TOKEN": "608783806:AAEIm9YHSELLgbNGz8Q6Ib4cmmwS48ly4Tk"}
 }
