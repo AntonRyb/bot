@@ -2,7 +2,7 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0",
     "request": "^2.88.0"
